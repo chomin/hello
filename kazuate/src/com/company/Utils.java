@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class Utils {
 
-    public static String input(){
+    public static int input_int(){
         Scanner scn = new Scanner(System.in);
-        String str = scn.nextLine();
-        scn.close();
-        return str;
+        int num = scn.nextInt();
+//        scn.close();
+        return num;
     }
 }
