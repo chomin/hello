@@ -2,7 +2,6 @@ package com.company;
 
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class Main {
 
@@ -13,7 +12,7 @@ public class Main {
 
         for (int i = 1; i < 6; i++) {
             System.out.println(i + "回目の数を入力してください");
-            int inputValue = Utils.input_int();
+            int inputValue = Utils.inputInteger();
 
 
             if (randomValue == inputValue) {
